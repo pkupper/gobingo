@@ -51,5 +51,5 @@ func main() {
 	log.Println("Starting server...")
 
 	http.HandleFunc("/connect", connectHandler)
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":80", nil))
 }
